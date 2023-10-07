@@ -88,6 +88,7 @@ function App() {
       const status = await contractInstance.getVotingStatus();
       console.log(status);
       setVotingStatus(status);
+      // setVotingStatus(true);
   }
 
   async function getRemainingTime() {
