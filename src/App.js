@@ -7,7 +7,7 @@ import Connected from './Components/Connected';
 import './App.css';
 
 function App() {
-  const [provider, setProvider] = useState(null);
+  const [provideri, setProvider] = useState(null);
   const [account, setAccount] = useState(null);
   const [isConnected, setIsConnected] = useState(false);
   const [votingStatus, setVotingStatus] = useState(true);
@@ -117,6 +117,7 @@ function App() {
       try {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         setProvider(provider);
+        console.log(provideri);
         await provider.send("eth_requestAccounts", []);
         const signer = provider.getSigner();
         const address = await signer.getAddress();
