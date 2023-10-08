@@ -15,7 +15,7 @@ npm install
 You first need to compile the contract and upload it to the blockchain network. Run the following commands to compile and upload the contract.
 
 ```shell
-npx hardhat compile
+npx hardhat compile 
 npx hardhat run --network volta scripts/deploy.js
 ```
 
