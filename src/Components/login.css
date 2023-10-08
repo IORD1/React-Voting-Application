@@ -1,0 +1,21 @@
+.logo{
+    width : 120px;
+    height : 150px;
+    background-image: url("./iitlogo.png");
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+
+.login-box{
+    height: 60vh;
+    width: 60vw;
+    border: 8px solid #7D7C7C;
+    border-radius: 2rem;
+    padding: 20px;
+    background-color: #F1EFEF;
+}
+
+.login-box p{
+    margin-left: 10px;
+}

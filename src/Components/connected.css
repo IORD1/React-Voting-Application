@@ -1,0 +1,18 @@
+.connected-box{
+    height: 60vh;
+    width: 60vw;
+    border: 8px solid #7D7C7C;
+    border-radius: 2rem;
+    padding: 20px;
+    background-color: #F1EFEF;
+}
+
+.connected-account2{
+    font-size: 1.2rem;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    line-height: 0.5rem;
+    border: 3px dashed #CCC8AA;
+    padding: 10px;
+}
+

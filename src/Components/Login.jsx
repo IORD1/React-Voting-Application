@@ -1,10 +1,17 @@
 import React from "react";
+import './login.css';
+
 
 const Login = (props) => {
     return (
+
         <div className="login-container">
-            <h1 className="welcome-message">Welcome to decentralized voting application</h1>
-            <button className="login-button" onClick = {props.connectWallet}>Login Metamask</button>
+            <div className="login-box">
+                <div className="logo"></div>
+                <h1 className="welcome-message" >Welcome to BlockChain Voting Application</h1>
+                {/* <p className="welcome-message2">Login to Vote</p> */}
+                <button className="login-button" onClick = {props.connectWallet}>Login with Metamask</button>
+            </div>
         </div>
     )
 }
